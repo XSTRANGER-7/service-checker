@@ -4,7 +4,7 @@ const checkWebsite = require('./services/websiteChecker');
     const websites = [
         'https://www.example.com',
         'https://www.google.com',
-        'https://www.nonexistentwebsite.com',
+        'https://www.thirdpartywebsite.com',
     ];
 
     for (const website of websites) {
